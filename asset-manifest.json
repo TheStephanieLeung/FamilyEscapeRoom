@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FamilyEscapeRoom/static/css/main.70ab9bc6.css",
+    "main.js": "/FamilyEscapeRoom/static/js/main.fd6b19e0.js",
+    "static/js/453.009afa8e.chunk.js": "/FamilyEscapeRoom/static/js/453.009afa8e.chunk.js",
+    "index.html": "/FamilyEscapeRoom/index.html",
+    "main.70ab9bc6.css.map": "/FamilyEscapeRoom/static/css/main.70ab9bc6.css.map",
+    "main.fd6b19e0.js.map": "/FamilyEscapeRoom/static/js/main.fd6b19e0.js.map",
+    "453.009afa8e.chunk.js.map": "/FamilyEscapeRoom/static/js/453.009afa8e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70ab9bc6.css",
+    "static/js/main.fd6b19e0.js"
+  ]
+}
