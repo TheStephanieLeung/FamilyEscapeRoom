@@ -9,9 +9,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1a1a1a;
+  background-image: 
+    radial-gradient(circle at 100% 150%, #1a1a1a 24%, #2a2a2a 25%, #2a2a2a 28%, #1a1a1a 29%, #1a1a1a 36%, #2a2a2a 36%, #2a2a2a 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0 150%, #1a1a1a 24%, #2a2a2a 25%, #2a2a2a 28%, #1a1a1a 29%, #1a1a1a 36%, #2a2a2a 36%, #2a2a2a 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50% 100%, #2a2a2a 10%, #1a1a1a 11%, #1a1a1a 23%, #2a2a2a 24%, #2a2a2a 30%, #1a1a1a 31%, #1a1a1a 43%, #2a2a2a 44%, #2a2a2a 50%, #1a1a1a 51%, #1a1a1a 63%, #2a2a2a 64%, #2a2a2a 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, #2a2a2a 5%, #1a1a1a 6%, #1a1a1a 15%, #2a2a2a 16%, #2a2a2a 20%, #1a1a1a 21%, #1a1a1a 30%, #2a2a2a 31%, #2a2a2a 35%, #1a1a1a 36%, #1a1a1a 45%, #2a2a2a 46%, #2a2a2a 49%, transparent 50%, transparent),
+    radial-gradient(circle at 0 50%, #2a2a2a 5%, #1a1a1a 6%, #1a1a1a 15%, #2a2a2a 16%, #2a2a2a 20%, #1a1a1a 21%, #1a1a1a 30%, #2a2a2a 31%, #2a2a2a 35%, #1a1a1a 36%, #1a1a1a 45%, #2a2a2a 46%, #2a2a2a 49%, transparent 50%, transparent);
+  background-size: 100px 50px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
 }
